@@ -15,14 +15,14 @@ class StrangeCalculatorTests: XCTestCase {
         sut = nil
     }
 
-    func test_3_6_9더하기() {
+    func test_2_7_23을전달했을때_33을반환하는지() {
         // given
-        let numbers = [3, 6, 9]
+        let input = [3, 7, 23]
         
         // when
-        let result = sut.addOddNumbers(of: numbers)
+        let result = sut.addNumbers(of: input)
         
         // then
-        XCTAssertEqual(result, 18)
+        XCTAssertEqual(result, 33)
     }
 }
