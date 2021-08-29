@@ -41,3 +41,4 @@ struct LottoMachine {
 enum LottoMachineError: Error {
     case invalidNumbers
 }
+
