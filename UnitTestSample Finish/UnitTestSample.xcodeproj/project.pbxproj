@@ -118,8 +118,8 @@
 		3417711F26D7644F00108680 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				3417711926D7549800108680 /* LottoMachine.swift */,
 				3417711C26D7643400108680 /* StrangeCalculator.swift */,
+				3417711926D7549800108680 /* LottoMachine.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
