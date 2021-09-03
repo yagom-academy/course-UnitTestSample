@@ -15,7 +15,8 @@ class StrangeCalculatorTests: XCTestCase {
         sut = nil
     }
 
-    func test_2_7_23을전달했을때_33을반환하는지() {
+    // MARK: - addNumbers
+    func test_addNumbers호출시_2_7_23을전달했을때_33을반환하는지() {
         // given
         let input = [3, 7, 23]
         
