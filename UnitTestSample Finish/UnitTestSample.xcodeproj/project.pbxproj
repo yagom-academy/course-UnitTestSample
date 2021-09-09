@@ -15,8 +15,8 @@
 		3417711126D7545500108680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3417710F26D7545500108680 /* LaunchScreen.storyboard */; };
 		3417711A26D7549800108680 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417711926D7549800108680 /* LottoMachine.swift */; };
 		3417711D26D7643400108680 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417711C26D7643400108680 /* StrangeCalculator.swift */; };
-		3417712726D7647B00108680 /* LottoMachinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417712626D7647B00108680 /* LottoMachinTests.swift */; };
 		3417715526D785E100108680 /* StrangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417715426D785E100108680 /* StrangeCalculatorTests.swift */; };
+		3417725426E8E94400108680 /* LottoMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417725326E8E94400108680 /* LottoMachineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,11 @@
 		3417711926D7549800108680 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
 		3417711C26D7643400108680 /* StrangeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
 		3417712426D7647B00108680 /* LottoMachinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoMachinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3417712626D7647B00108680 /* LottoMachinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachinTests.swift; sourceTree = "<group>"; };
 		3417712826D7647B00108680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3417715426D785E100108680 /* StrangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculatorTests.swift; sourceTree = "<group>"; };
 		341771C826E09A5E00108680 /* StrangeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		341771CC26E09A5E00108680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3417725326E8E94400108680 /* LottoMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 		3417712526D7647B00108680 /* LottoMachinTests */ = {
 			isa = PBXGroup;
 			children = (
-				3417712626D7647B00108680 /* LottoMachinTests.swift */,
+				3417725326E8E94400108680 /* LottoMachineTests.swift */,
 				3417712826D7647B00108680 /* Info.plist */,
 			);
 			path = LottoMachinTests;
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3417715526D785E100108680 /* StrangeCalculatorTests.swift in Sources */,
-				3417712726D7647B00108680 /* LottoMachinTests.swift in Sources */,
+				3417725426E8E94400108680 /* LottoMachineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

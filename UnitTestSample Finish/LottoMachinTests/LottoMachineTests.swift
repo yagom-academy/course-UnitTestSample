@@ -20,7 +20,7 @@ class LottoMachinTests: XCTestCase {
     }
     
     // MARK: - isValidLottoNumbers
-    func test_isValidLottoNumbers호출시_6개보다적은숫자입력때_False를반환하는지() {
+    func test_isValidLottoNumbers호출시_6개보다적은숫자입력했을때_False를반환하는지() {
         // given
         let input = [3, 6, 9]
         
